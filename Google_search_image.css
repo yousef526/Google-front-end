@@ -1,0 +1,61 @@
+input{
+    width: 600px;
+    height: 10px;
+    position: relative;
+    left: 30px;
+    border-radius: 25px;
+    padding: 20px;
+    
+    top: 300px;
+} 
+div{
+    
+    height: 600px;
+    width: 700px;
+    margin: 400x;
+    margin-left: 600px;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+img{
+    height:100px ;
+    width:400px;
+    position: relative;
+    left: 140px;
+    top: 300px;
+    
+}
+.button{
+    font-size: 20px;
+    position: relative;
+    top: 350px;
+    left: 100px;
+    right:1px;
+    bottom: 1px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
